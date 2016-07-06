@@ -6,6 +6,23 @@
     border: 1px solid black;
     margin-bottom:5px;
 }
+[class^="col-"]{
+  background: wheat;
+  border:1px solid white;
+  margin-bottom:3px;
+}
+[class^="col-"]:nth-of-type(4n+1){
+  background: orange;
+  
+}
+[class^="col-"]:nth-of-type(4n+2){
+  background: Ivory ;
+  
+}
+[class^="col-"]:nth-of-type(4n+3){
+  background: Gold ;
+  
+}
 
 .floatclear::after {
     content: "";
